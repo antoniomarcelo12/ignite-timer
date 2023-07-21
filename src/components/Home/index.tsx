@@ -6,7 +6,7 @@ import { FormProvider, useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as zod from 'zod'
 import { HandPalm, Play } from "phosphor-react";
-import { Cycle, CyclesContext } from "../../CyclesContext";
+import { CyclesContext } from "../../CyclesContext";
 
 
 
