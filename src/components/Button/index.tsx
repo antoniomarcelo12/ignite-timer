@@ -1,6 +1,5 @@
 import { HandPalm, Play } from "phosphor-react";
-import { StartCountdownButton, StopCountdownButton } from "../Home/styles";
-import { NewCycleFormData } from "../Home/NewCycleForm";
+import { StartCountdownButton, StopCountdownButton } from "./styles";
 
 interface ButtonProps {
     handleCreateNewCycle?: any;

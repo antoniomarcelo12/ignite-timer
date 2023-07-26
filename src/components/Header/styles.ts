@@ -31,5 +31,12 @@ export const HeaderContainer = styled.header`
             }
         }
     }   
+
+
+    @media (max-width: 375px) {
+        height: .5rem;
+        font-size: .5rem;
+        margin: -.5rem 0 2rem 0;
+    }
     
 `

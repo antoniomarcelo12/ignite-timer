@@ -17,6 +17,8 @@ export const HistoryList = styled.div`
     overflow: auto;
     margin-top: 2rem;
 
+    max-height: 30rem;
+
     table {
         width: 100%;
         border-collapse: collapse;

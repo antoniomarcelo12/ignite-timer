@@ -1,4 +1,4 @@
-import { HomeContainer, StartCountdownButton, StopCountdownButton } from "./styles";
+import { HomeContainer } from "./styles";
 import { NewCycleForm } from "./components/NewCycleForm";
 import { Countdown } from "./components/Countdown";
 import { useContext } from "react";
@@ -7,6 +7,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import * as zod from 'zod'
 import { HandPalm, Play } from "phosphor-react";
 import { CyclesContext } from "../../CyclesContext";
+import { StartCountdownButton, StopCountdownButton } from "../Button/styles";
 
 
 
